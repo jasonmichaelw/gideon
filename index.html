@@ -3,80 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jason Michael Wang - CV</title>
+    <title>Jason Michael Wang - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Jason Michael Wang</h1>
-        <p>Software Engineering Student | Tsinghua University</p>
-        <p>Contact: <a href="mailto:jasonmichaelwang16@gmail.com">jasonmichaelwang16@gmail.com</a></p>
-        <p>WeChat: 15210889761 | WhatsApp: +6281358188806</p>
-        <p><a href="http://linkedin.com/in/jasonmichaelw" target="_blank">LinkedIn Profile</a></p>
-    </header>
-    
-    <section id="education">
-        <h2>Education</h2>
-        <h3>Tsinghua University, China (2023 - 2027)</h3>
-        <p>Major: Software Engineering | Recipient of Beijing Government Scholarship</p>
-        <p><strong>Relevant Courses:</strong> Fundamentals of Programming, Game Programming, OOP, AI, Data Structures, Complex Algorithm Analysis, Digital Electronics, Automata, Operating Systems</p>
-        
-        <h3>SMA Petra 1 Surabaya, Indonesia (2020 - 2023)</h3>
-        <p>High School</p>
-        <p>Represented school in international mathematics Olympiads and won multiple medals:</p>
-        <ul>
-            <li><strong>Gold Medal:</strong> HKIMO 2021, TIMO 2021, AMO 2021, SEAMO</li>
-            <li><strong>Silver Medal:</strong> WMI Finals 2021, TIMO Final Round 2021-2022, BBC 2021-2022, MWB Tournament, WMI 2021, ASMO</li>
-            <li><strong>Bronze Medal:</strong> SASMO</li>
-        </ul>
-        <button onclick="toggleAbbreviations()">Click here to see the Olympiad abbreviations</button>
-        <div id="olympiad-abbreviations" style="display: none;">
-            <p><strong>Olympiad Abbreviations:</strong></p>
-            <ul>
-                <li><strong>HKIMO:</strong> Hong Kong International Mathematical Olympiad</li>
-                <li><strong>TIMO:</strong> Thailand International Mathematical Olympiad</li>
-                <li><strong>AMO:</strong> American Mathematics Olympiad</li>
-                <li><strong>SEAMO:</strong> Southeast Asian Mathematical Olympiad</li>
-                <li><strong>BBC:</strong> Guangdong-Hong Kong-Macao Greater Bay Area Mathematical Olympiad</li>
-                <li><strong>MWB:</strong> Mathematics Without Borders International Tournament</li>
-                <li><strong>ASMO:</strong> Asian Science and Mathematics Olympiad</li>
-                <li><strong>SASMO:</strong> Singapore and Asian Schools Math Olympiad</li>
-            </ul>
+    <div class="contOut clearfix">
+        <div class="contIn">
+            <section class="top clearfix">
+                <div class="logoCont">
+                    <img class="logo" src="https://via.placeholder.com/150" alt="Profile Picture">
+                </div>
+                <h1>Jason Michael Wang</h1>
+                <div class="moreInfo">
+                    <p>+86 152 1088 9761<br>
+                    jasonmichaelwang16@gmail.com<br>
+                    WeChat: 15210889761 | WhatsApp: +6281358188806<br>
+                    <a href="http://linkedin.com/in/jasonmichaelw" target="_blank">LinkedIn Profile</a></p>
+                </div>
+                <p class="tagline">Software Engineering Student<br>Financial Enthusiast<br><span>Business & Technology</span></p>
+            </section>
+            <div class="divider"></div>
         </div>
-    </section>
+    </div>
     
-    <section id="skills">
-        <h2>Skills and Interests</h2>
-        <p><strong>Languages:</strong> Bahasa Indonesia (Native), English (IELTS 7.5, TOEFL 103, SAT 1430), Chinese (HSK 5, HSK 6)</p>
-        <p><strong>Technical:</strong> C++, Python, SQL, Java, HTML, CSS, MATLAB, Qt, Microsoft Office</p>
-        <p><strong>Soft Skills:</strong> Financial Enthusiast (Indonesian Market), Business Management, Communication, Team Leadership</p>
-        <p><strong>Business Experience:</strong> Founder of an online store operating on Shopee and Tokopedia</p>
-    </section>
+    <div class="contOut clearfix">
+        <div class="contIn">
+            <section class="middle clearfix">
+                <div class="job">
+                    <h2>Tsinghua University, China <i class="fa fa-minus openBtn open"></i><span>August 2023 - May 2027</span></h2>
+                    <p><strong>Major:</strong> Software Engineering<br>
+                    <strong>Scholarship:</strong> Recipient of Beijing Government Scholarship<br>
+                    <strong>Relevant Coursework:</strong> Programming, AI, Data Structures, OOP, OS</p>
+                </div>
+            </section>
+            <div class="divider"></div>
+        </div>
+    </div>
     
-    <section id="experience">
-        <h2>Experience</h2>
-        <h3>Tsinghua Indonesian Student Association (Sep 2023 - Present)</h3>
-        <p>Head of Social Cultural Department</p>
-        
-        <h3>Tsinghua University Student Research Training (Aug 2024 - Jan 2025)</h3>
-        <p>Contextualized Cognitive Training Game for Elderly Cognitive Impairment</p>
-        
-        <h3>High School Student Council Member (Aug 2022 - Apr 2023)</h3>
-        <p>Planned and coordinated farewell events for two consecutive years</p>
-    </section>
+    <div class="contOut clearfix">
+        <div class="contIn">
+            <section class="middle clearfix">
+                <div class="job">
+                    <h2>SMA Petra 1 Surabaya, Indonesia <i class="fa fa-plus openBtn"></i><span>July 2020 - June 2023</span></h2>
+                    <p><strong>Achievements:</strong> Multiple international mathematics Olympiad medals</p>
+                    <ul>
+                        <li><strong>Gold Medal:</strong> HKIMO 2021, TIMO 2021, AMO 2021, SEAMO</li>
+                        <li><strong>Silver Medal:</strong> WMI Finals 2021, TIMO Final 2021-2022, BBC 2021-2022</li>
+                        <li><strong>Bronze Medal:</strong> SASMO</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="divider"></div>
+        </div>
+    </div>
     
-    <section id="projects">
-        <h2>Projects</h2>
-        <h3>Retro Snake Game (Nov 2023 - Dec 2023)</h3>
-        <p>Developed a fully functioning retro snake game using C++</p>
-        
-        <h3>2-Player Fighting Game (Aug 2024)</h3>
-        <p>Developed a 2-player fighting game using C++ in Qt</p>
-    </section>
+    <div class="contOut clearfix">
+        <div class="contIn">
+            <section class="middle clearfix">
+                <div class="skills code odd">
+                    <h3>Technical Skills <i class="fa fa-code"></i></h3>
+                    <ul>
+                        <li class="prim">C++</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Java</li>
+                        <li>HTML, CSS</li>
+                        <li>MATLAB</li>
+                        <li>Qt</li>
+                        <li>Microsoft Office</li>
+                    </ul>
+                </div>
+                <div class="skills software">
+                    <h3>Soft Skills & Interests <i class="fa fa-laptop"></i></h3>
+                    <ul>
+                        <li>Financial Enthusiast</li>
+                        <li>Business Management</li>
+                        <li>Communication</li>
+                        <li>Team Leadership</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="divider"></div>
+        </div>
+    </div>
     
-    <footer>
-        <p>&copy; 2024 Jason Michael Wang. All rights reserved.</p>
-    </footer>
+    <div class="contOut clearfix">
+        <div class="contIn">
+            <section class="middle clearfix">
+                <div class="job">
+                    <h2>Projects</h2>
+                    <div class="project">
+                        <h3>Retro Snake Game (Nov 2023 - Dec 2023)</h3>
+                        <p>Developed a fully functioning retro snake game using C++.</p>
+                    </div>
+                    <div class="project">
+                        <h3>2-Player Fighting Game (Aug 2024)</h3>
+                        <p>Developed a 2-player fighting game using C++ in Qt.</p>
+                    </div>
+                </div>
+            </section>
+            <div class="divider"></div>
+        </div>
+    </div>
+    
+    <div class="contOut clearfix">
+        <div class="contIn">
+            <section class="middle clearfix">
+                <h3>Contact Information</h3>
+                <p>Email: jasonmichaelwang16@gmail.com</p>
+                <p>Phone: +86 152 1088 9761</p>
+                <p>LinkedIn: <a href="http://linkedin.com/in/jasonmichaelw" target="_blank">jasonmichaelw</a></p>
+            </section>
+            <div class="divider"></div>
+        </div>
+    </div>
 </body>
 </html>
